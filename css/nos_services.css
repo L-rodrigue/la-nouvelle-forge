@@ -1,0 +1,88 @@
+header{
+    position: absolute;
+    background-color:  #472F88;
+    width: 100%;
+    top: 0px;
+    bottom:50%;
+
+}
+.navbar{
+    color: white;
+}
+nav{
+    position: absolute;
+    background-color:#4E368F ;
+    top: 0px;
+    bottom: 50x;
+    width: 100%;
+    text-align: right;
+    z-index: 2;
+}
+.logo{
+    position: absolute;
+    left:0px ;
+}
+.text{
+    display: flex;
+    color: white;
+    
+}
+.bouton1{
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    left: 100px;
+    top: 350px;
+    background-color: #472F88;
+    text-decoration: none;
+    padding:0.3em 0.6em;
+}
+.bouton2{
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    left: 100px;
+    top: 350px;
+    background-color: #472F88;
+    text-decoration: none;
+    padding:0.3em 0.6em;
+}
+footer{
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    top: 20%;
+    bottom: 0px;
+    margin: 0px;
+    background: #472F88;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.propos{
+    position: static;
+    top: 0px;
+    left: 111px;
+    color: white;
+
+}
+.Reseaux{
+    position: static;
+    top: 0px;
+    left: 318px ;
+
+}
+.adresse{
+    position: static;
+    top: 0px;
+    left: 615px;
+
+}
+.PC{
+    position: static;
+    top: 0px;
+    left: 1060px;
+
+}

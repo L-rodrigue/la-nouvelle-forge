@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    display: block;
+    position: absolute;
+    background-color:  #472F88;
+    width: 100%;
+    top: 0px;
+    bottom:50%;
+
+}
+nav{
+    position: absolute;
+    background-color:#4E368F ;
+    top: 0px;
+    width: 100%;
+    text-align: right;
+} 
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 0 8px;
+}
+nav a:hover , nav a.active {
+    color: #E72287;
+}
+.logo{
+    float: left;;
+    left:0px ;
+}
+.text_h{
+    position: absolute;
+    top: 137px;
+    left: 51px;
+    color: white;
+    
+}
+body{
+    margin: 0px;
+    
+}
+text_body{
+    position: absolute;
+    align-content: center;
+}
+.entreprise{
+    top: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+.text_entrepise{
+    display: flex;
+    justify-content: space-between;
+
+}
+footer{
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    top: 20%;
+    bottom: 0px;
+    margin: 0px;
+    background: #472F88;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.propos{
+    position: static;
+    top: 0px;
+    left: 111px;
+    color: white;
+
+}
+.Reseaux{
+    position: static;
+    top: 0px;
+    left: 318px ;
+
+}
+.adresse{
+    position: static;
+    top: 0px;
+    left: 615px;
+
+}
+.PC{
+    position: static;
+    top: 0px;
+    left: 1060px;
+
+}

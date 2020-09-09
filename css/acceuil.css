@@ -1,0 +1,131 @@
+header{ 
+    width: 1340px;
+    height: 420px;
+    margin: 0px;
+    color: white; ;
+    background-image:  linear-gradient(#190847cb ,#190847cb), url("C:/Users/olivi/OneDrive/Bureau/Rodrigue/NF/bat.jpg");
+    background-attachment: fixed;
+
+}
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    
+}
+.titre-header{
+    position: absolute;
+    left: 100px;
+    top : 175px;
+
+}
+.text-header{
+    position: absolute;
+    text-align: left;
+    left: 100px;
+    top: 250px;
+}
+.bouton{
+    font-size: 20px;
+    color: #472F88;
+    position: absolute;
+    left: 100px;
+    top: 350px;
+    background-color: white;
+    text-decoration: none;
+    padding:0.3em 0.6em;
+}
+body{
+    width: 100%;
+    left: 0px;
+    bottom: 800px; 
+}
+.icone{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.titre_icone{
+    display: flex;
+    justify-content: space-around;
+
+}
+.text_icone{
+    display: flex;
+    justify-content: space-around;
+
+}
+.composantes{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-image: -moz-linear-gradient();   
+}
+.pepiniere{
+    width: 250px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#472f888c ,#472f888c) ,url("C:/Users/olivi/OneDrive/Bureau/Rodrigue/NF/pepiniere.jpg");
+    color: white;
+}
+.fablab{
+    width: 250px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#472f888c ,#472f888c) ,url("C:/Users/olivi/OneDrive/Bureau/Rodrigue/NF/Fablab.jpg");
+    color: white;
+}
+.residents{
+    width: 250px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#472f888c ,#472f888c) ,url("C:/Users/olivi/OneDrive/Bureau/Rodrigue/NF/resident.jpg");
+    color: white;
+}
+.services{
+    width: 250px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#472f888c ,#472f888c) ,url("C:/Users/olivi/OneDrive/Bureau/Rodrigue/NF/Nos_services.jpg");
+    color: white;
+}
+footer{
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    top: 20%;
+    bottom: 0px;
+    margin: 0px;
+    background: #472F88;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.propos{
+    position: static;
+    top: 0px;
+    left: 111px;
+    color: white;
+
+}
+.Reseaux{
+    position: static;
+    top: 0px;
+    left: 318px ;
+
+}
+.adresse{
+    position: static;
+    top: 0px;
+    left: 615px;
+
+}
+.PC{
+    position: static;
+    top: 0px;
+    left: 1060px;
+
+}
